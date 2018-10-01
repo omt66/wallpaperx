@@ -44,6 +44,7 @@ public:
 private: 
     //--- Data Members ---
     bool mDone;
+    vector<string> mWallpaperImageFiles;
 
     //--- Member Functions (Methods) ---
 	int getCurrentDesktopNo();

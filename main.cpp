@@ -88,8 +88,14 @@ int main(int argc, char* argv[]) {
       fileNames.push_back("~/wallpapers/image8.jpg");
   }
 
-  WallpaperX wx(fileNames);
+  WallpaperX *wx = new WallpaperX(fileNames);
   
+  // This will run indefinetely till the program gets a signal to terminate.
+  wx->start();
+
+  // Clean up
+  delete wx;
+
   cout << "Thanks for using WallpaperX. Bye bye :)" << endl;
 
   return 0;
