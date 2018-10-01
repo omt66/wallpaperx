@@ -29,10 +29,10 @@ WallpaperX::WallpaperX(vector<string> imageFileNames) {
   mWallpaperImageFiles = imageFileNames;
 
   // Set the signal handlers: All we want is to stop the process properly!
-	signal(SIGINT,  WallpaperX::stopProcess);
-	signal(SIGABRT, WallpaperX::stopProcess);
-	signal(SIGKILL, WallpaperX::stopProcess);
-	signal(SIGTERM, WallpaperX::stopProcess);
+  signal(SIGINT,  WallpaperX::stopProcess);
+  signal(SIGABRT, WallpaperX::stopProcess);
+  signal(SIGKILL, WallpaperX::stopProcess);
+  signal(SIGTERM, WallpaperX::stopProcess);
 }
 
 WallpaperX::~WallpaperX() {
