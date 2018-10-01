@@ -34,23 +34,23 @@ using namespace std;
 
 void showVersion() {
 	cout << "wallpaperx version 1.0" << endl
-		 << "(c) 2005 omt66. All rights reserved." << endl;
+        << "(c) 2005 omt66. All rights reserved." << endl;
 		
  	exit(0);
 }
 
 void showUsage() {
 	cout << "Usage is: Wallpaperx "  
-		 << "[options]  [imageFileName1 imageFileName2 ...]"
-		 << endl
-         << "\t--help | -h | ? \tShow usage information" << endl
-         << "\t--version | -v  \tShow version information" << endl << endl
-         << "If no image filenames provided then default ones will be used" << endl
-         << "\t1) ~/wallpapers/image1.png" << endl
-         << "\t2) ~/wallpapers/image1.png" << endl
-         << "\t   ..." << endl
-         << "\t8) ~/wallpapers/image8.png" << endl
-		 << endl;
+        << "[options]  [imageFileName1 imageFileName2 ...]"
+        << endl
+        << "\t--help | -h | ? \tShow usage information" << endl
+        << "\t--version | -v  \tShow version information" << endl << endl
+        << "If no image filenames provided then default ones will be used" << endl
+        << "\t1) ~/wallpapers/image1.png" << endl
+        << "\t2) ~/wallpapers/image1.png" << endl
+        << "\t   ..." << endl
+        << "\t8) ~/wallpapers/image8.png" << endl
+		<< endl;
 
 	exit(0);
 }
